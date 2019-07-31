@@ -1,0 +1,87 @@
+.header {
+	height: 752px;
+	background-color: @background;
+}
+
+.logo {
+	width: 280px;
+	background-color: @accent;
+	height: 115px;
+	margin-top: 63px;
+	display: inline-block;
+}
+
+.content {
+	margin-top: 105px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	width: 350px;
+	height: 350px;
+	background-color: @accent;
+	border-radius: 50%;
+	color: @text;
+	font-size: 22px;
+	font-family: 'MyriadPro';
+	.block-left li {
+		position: relative;
+		margin-bottom: 90px;
+	}
+	.circle__text-1 {
+		position: absolute;
+		top: 25px;
+		left: -328px;
+	}
+	.circle__text-2 {
+		position: absolute;
+		top: 157px;
+		left: -357px;
+	}
+	.circle__text-3 {
+		position: absolute;
+		bottom: 25px;
+		left: -328px;
+	}
+	.circle__text-4 {
+		position: absolute;
+		top: 25px;
+		right: -328px;
+	}
+	.circle__text-5 {
+		position: absolute;
+		top: 157px;
+		right: -357px;
+	}
+	.circle__text-6 {
+		position: absolute;
+		bottom: 25px;
+		right: -328px;
+	}
+	.circle__text-1:after,
+	.circle__text-2:after,
+	.circle__text-3:after {
+		content: '';
+		width: 85px;
+		height: 85px;
+		background-color: #fff;
+		display: inline-block;
+		border-radius: 50%;
+		position: absolute;
+		top: -25px;
+		right: -100px;
+	}
+	.circle__text-4:before,
+	.circle__text-5:before,
+	.circle__text-6:before {
+		content: '';
+		width: 85px;
+		height: 85px;
+		background-color: #fff;
+		display: inline-block;
+		border-radius: 50%;
+		position: absolute;
+		top: -25px;
+		left: -100px;
+	}
+
+}
