@@ -1,0 +1,19 @@
+.sidebar {
+	display: none;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	bottom: 40px;
+	width: 270px;
+	float: left;
+	background-color: @background;
+
+	@media (min-width: 768px) {
+		width: 200px;
+		display: block;
+	}
+	
+	@media (min-width: 1200px) {
+		width: 270px;
+	}
+}
